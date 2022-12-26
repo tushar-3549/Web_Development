@@ -1,0 +1,55 @@
+<!--Keyboard shortcut HTML Basic structure : press ! + enter button :)-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow and Custom Tooltip</title>
+    <style>
+        *{
+            background-color: beige;
+        }
+        div {
+            height: 100px;
+            width: 250px;
+            background-color: aqua;
+            border: 1px solid red;
+            overflow: scroll;
+        }
+        .tooltip{
+            position: relative;
+        }
+        .tooltip .tooltip-text{
+            visibility: hidden;
+            width: 150px;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+        }
+        .tooltip:hover .tooltip-text{
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="http://www.facebook.com" class="tooltip">facebook<span class="tooltip-text">facebook is a social media</span></a>
+    <div>
+        Sanctus et amet dolor dolor lorem erat dolore kasd eirmod. Invidunt ipsum est nonumy ut eos lorem diam voluptua
+        labore. Amet eos takimata stet et, consetetur kasd et dolor lorem takimata est, duo sea clita takimata sit sed
+        eirmod lorem sanctus at, nonumy amet sanctus et vero stet erat eos, eos duo diam ut sanctus sed lorem at, magna
+        stet lorem kasd diam, eos at sed et diam eos takimata ipsum, sanctus sit sanctus sanctus et sea. Et magna diam
+        ut sit consetetur at elitr. Dolore dolor at ea amet, rebum rebum no ut lorem accusam sanctus elitr ipsum,
+        consetetur dolore ea eirmod tempor. No elitr ipsum gubergren voluptua gubergren nonumy, no est diam lorem ut
+        vero sed, sit aliquyam sea accusam diam, stet ut eos no eirmod nonumy tempor sit et, diam sit amet et sit. Sit
+        ipsum vero dolor takimata, et tempor ipsum sed eos stet. Magna accusam.
+    </div>
+</body>
+
+</html>

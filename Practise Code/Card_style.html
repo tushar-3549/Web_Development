@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card design using CSS</title>
+    <style>
+        *{
+            background-color: black;
+        }
+        .card {
+            width: 300px;
+            padding: 5px;
+            box-sizing: border-box;
+            box-shadow: 1px 2px 4px black;
+        }
+
+        .card-style {
+            width: 100%;
+        }
+        .card-body{
+            padding: 5px;
+            background-color: blueviolet;
+            color: white;
+        }
+        .card-body .card-title{
+            font-size: 2rem;
+            text-align: center;
+        }
+        .card-body .card-des{
+            text-align: justify;
+            line-height: 1.5;
+            color: white;
+        }
+        .card:hover{
+            box-shadow: 6px 12px 10px white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img class="card-style"
+            src="https://th.bing.com/th/id/R.174136538ab8ba512802ac2fd917524e?rik=mlSiLT%2bSPyBkDg&riu=http%3a%2f%2fweknowyourdreams.com%2fimages%2fpython%2fpython-09.jpg&ehk=IPZ7BLZRwCudW3oie799upn53coVZy7nMwyhaHi%2flBo%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1">
+        <div class="card-body">
+            <div class="card-title">
+                Python Programming
+            </div>
+            <div class="card-des">
+                <p>Est sed amet et et accusam nonumy invidunt ipsum sed, justo sit et gubergren magna ipsum nonumy lorem
+                    diam. Dolor consetetur gubergren takimata sed nonumy ea sadipscing diam sea, dolore nonumy accusam
+                    lorem dolor, amet et no dolores eirmod aliquyam, sed sit amet sed eirmod lorem kasd nonumy. Clita
+                    clita.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

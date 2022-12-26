@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu Learning CSS</title>
+    <style>
+        #nav-menu {
+            background-color: aqua;
+            width: 400px;
+            height: 40px;
+            margin: 0 auto;
+            /*center*/
+        }
+
+        #nav-menu ul li {
+            list-style-type: none;
+            margin: 10px;
+            float: left;
+        }
+
+        #nav-menu ul li a {
+            text-decoration: dotted;
+            /*none*/
+            font-size: 20px;
+            color: black;
+            cursor: pointer;
+        }
+
+        #nav-menu ul li a:hover {
+            text-decoration: underline;
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav-menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tutorial</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Location</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

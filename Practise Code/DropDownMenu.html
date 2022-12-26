@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop down menu creation using html and css</title>
+    <style>
+        .bar {
+            background-color: aqua;
+            padding: 1% 7%;
+            text-align: center;
+        }
+
+        .bar a {
+            color: black;
+            text-decoration: none;
+            font-size: 1.7rem;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .drop-down-container{
+            display: inline;
+            position: relative;
+        }
+        .drop-down-content{
+            position: absolute;
+            top: 30px;
+            right: 0px;
+            background-color: aqua;
+            text-align: center;
+            min-width: 100px;
+            display: none;
+        }
+        .drop-down-content a{
+            display: block;
+        }
+        .drop-down-container:hover .drop-down-content{
+            display: block;
+        }
+        .drop-down-content a:hover{
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bar">
+        <a href="#">Home</a>
+        <a href="#">Experience</a>
+        <div class="drop-down-container">
+            <a href="#">Contact</a>
+            <div class="drop-down-content">
+                <a href="#">Facebook</a>
+                <a href="#">E mail</a>
+                <a href="#">Address</a>
+            </div>
+        </div>
+        <a href="#">About me</a>
+    </div>
+</body>
+
+</html>
