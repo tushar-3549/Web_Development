@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Layout Two</title>
+    
+    <style>
+        .grid-container > div{
+            background-color: aqua;
+            border: 3px solid red;
+            text-align: center;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto;
+            
+        }
+        .i1{
+            grid-column: 1/8;
+        }
+        .i2{
+            grid-column: 1/4;
+            grid-row: 2/4;
+        }
+        .i3{
+            grid-column: 4/6;
+        }
+        .i4{
+            grid-column: 6/8;
+        }
+        .i5{
+            grid-column: 4/8;
+        }
+      </style>
+ </head>
+<body>
+    <div class="grid-container">
+       <div class="i1">
+           <h1>Header</h1>
+       </div>
+       <div class="i2">
+           <h1>Body</h1>
+       </div>
+       <div class="i3">
+           <h1>Manu</h1>
+       </div>
+       <div class="i4">
+           <h1>Aside</h1>
+       </div>
+       <div class="i5">
+           <h1>Footer</h1>
+       </div>
+        
+    </div>
+    
+</body>
