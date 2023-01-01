@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: #E4F9F4;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 110px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+.bio {
+    padding: 20px;
+    float: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: teal;
+}
+
+header .contact {
+    float: right;
+    padding: 30px;
+}
+
+header .contact a {
+    text-decoration: none;
+    color: teal;
+}
+
+header .contact a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.div-clear {
+    clear: both;
+}
+
+hr {
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+#personal_info{
+
+}
+.content{
+    margin-bottom: 30px;
+}
+.left{
+    float: left;
+    width: 30%;
+}
+.right{
+    float: left;
+    width: 70%;
+}
+.common_hr{
+    border: black solid 2px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.refer_left{
+    width: 50%;
+    float: left;
+}
+.refer_right{
+    width: 50%;
+    float: left;
+}
+.footer_container{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footer_container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.footer_container p{
+    margin-top: 20px;
+    color: white;
+}
