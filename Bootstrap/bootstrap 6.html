@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstarp Exercise 5</title>
+
+
+    <!-- font awsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- bootstrap4 cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- bootstap5 cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <style>
+        .link_style:hover{
+            text-decoration: underline;
+            /* background-color: red; */
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="head">
+        <header class="bg-dark m-0 p-4">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h1 class="text-white text-center m-0">Md Tushar Ahmed</h1>
+                </div>
+                <div class="col-lg-7">
+                    <nav class="nav justify-content-center">
+                        <li class="nav-item"><a class="nav-link text-white link_style" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-white link_style" href="#">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link text-white link_style" href="#">Address</a></li>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- dynamic toggolable tabs and pills -->
+
+    <div class="other_sec">
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a data-toggle="tab" class="nav-link active" href="#edu">Education</a></li>
+            <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#skil">Skill</a></li>
+            <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#hobb">Hobby</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="edu" class="tab-pane active"><p>1. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic commodi, quisquam repellat laboriosam rem sed!</p></div>
+            <div id="skil" class="tab-pane fade"><p>2. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic commodi, quisquam repellat laboriosam rem sed!</p></div>
+            <div id="hobb" class="tab-pane fade"><p>3. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic commodi, quisquam repellat laboriosam rem sed!</p></div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Dismissible Allert Button -->
+
+    <h2>Dismissible Allert Button</h2>
+
+    <div class="alert alert-danger alert-dismissible" role="alert">
+        <button class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        Learn Bottstrap V5
+    </div>
+
+
+
+    <main class="text-center">
+        <div class="review bg-dark">
+            <div class="title mb-3 text-center">
+                <h2 class="text-white">Customer Review</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <blockquote class="blockquote">
+                    <i class="fa-3x p-2 fas fa-user-circle"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet tenetur iste commodi possimus maxime sit.
+                        In this website you can see my <abbr title="facebook">fb</abbr> profile
+                    </p>
+                    <footer class="blockquote-footer">
+                        Md Tushar Ahmed in <cite>Githab</cite>
+                    </footer>
+                </blockquote>
+            </div>
+
+            <!-- blockquote and abbr  -->
+
+            <div class="col-lg-3">
+                <blockquote class="blockquote">
+                    <i class="fa-3x p-2 fas fa-user-circle"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet tenetur iste commodi possimus maxime sit.
+                        In this website you can see my <abbr title="facebook">fb</abbr> profile
+                    </p>
+                    <footer class="blockquote-footer">
+                        Md Tushar Ahmed in <cite>Githab</cite>
+                    </footer>
+                </blockquote>
+            </div>
+
+            <div class="col-lg-3">
+                <blockquote class="blockquote">
+                    <i class="fa-3x p-2 fas fa-user-circle"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet tenetur iste commodi possimus maxime sit.
+                        In this website you can see my <abbr title="facebook">fb</abbr> profile
+                    </p>
+                    <footer class="blockquote-footer">
+                        Md Tushar Ahmed in <cite>Githab</cite>
+                    </footer>
+                </blockquote>
+            </div>
+
+            <div class="col-lg-3">
+                <blockquote class="blockquote">
+                    <i class="fa-3x p-2 fas fa-user-circle"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet tenetur iste commodi possimus maxime sit.
+                        In this website you can see my <abbr title="facebook">fb</abbr> profile
+                    </p>
+                    <footer class="blockquote-footer">
+                        Md Tushar Ahmed in <cite>Githab</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- collapse demo -->
+
+        <div class="about">
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quidem autem dolorem voluptatum amet libero!</p>
+            <a href="#demo" data-toggle="collapse">Learn more</a>
+            <div id="demo" class="collapse">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero error quo odio deserunt sit rem eius quis? Tempore.</p>
+            </div>
+        </div>
+
+        <!-- Button  -->
+
+        <div class="btnn mt-4 mb-5">
+            <button class="btn btn-outline-primary">Download CV</button>
+            <!-- <button class="btn btn-outline-primary p-3">Download CV</button>  btn-sm, btn-lg -->
+
+        </div>
+
+        <!-- list  -->
+
+        <div class="student_list">
+            <ul class="list-group">
+                <li class="list-group-item bg-primary text-white">Tushar Ahmed</li>
+                <li class="list-group-item bg-secondary text-white">Maruf Khan</li>
+                <li class="list-group-item bg-success text-white">Tamim Iqbal</li>
+            </ul>
+        </div>
+
+        
+    </main>
+
+    <!-- pagination -->
+    <footer class="bg-dark">
+        <ul class="pagination justify-content-center py-3">
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+        </ul>
+    </footer>
+
+    <!-- bootstrap4 cdn for js, jQuery, popper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+        <!-- bootstrap3 cdn for js,jQuery, popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
