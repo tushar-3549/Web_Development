@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstarp Exercise 5</title>
+
+
+  <!-- font awsome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!-- bootstrap4 cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- bootstap5 cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+
+
+
+  <style>
+    .coo {
+      background-color: aqua;
+    }
+  </style>
+
+</head>
+
+<body class="coo">
+
+  <div class="contact">
+    <h2 class="font-weight-bold text-center">Contact me</h2>
+  </div>
+
+  <form action="">
+
+    <div class="container bg-dark text-white w-75">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" id="name" name="name" class="form-control">
+      </div>
+
+      <!-- <div class="container bg-dark text-white w-75">
+        <div class="mb-3 form-floating">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" id="name" name="name" class="form-control">
+        </div> -->
+
+      <div class="mb-3">
+        <label for="email" class="form-label">E-mail</label>
+        <input type="email" id="email" name="email" class="form-control" placeholder="name@example.com">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+
+      <div class="mb-3">
+        <label for="password" class="form-label">PassWord</label>
+        <input type="password" id="password" name="password" class="form-control">
+        <div id="passHelp" class="form-text">Must be have 8-10 characters long.</div>
+      </div>
+
+      <div class="mb-3">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="req">
+          <label class="form-check-label" for="req">
+            Are you fill-up the requirements ?
+          </label>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" id="male" name="gender">
+          <label class="form-check-label" for="male">
+            Male
+          </label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" id="male" name="gender">
+          <label class="form-check-label" for="female">
+            Female
+          </label>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="dept">Department</label>
+        <select class="form-select-inline" aria-label="dept">
+          <option selected>CSE</option>
+          <option value="1">EEE</option>
+          <option value="2">LLB</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleColorInput" class="form-label">Color picker</label>
+        <input type="color" class="form-control-color" id="exampleColorInput" value="#567d7c" title="Choose your color">
+      </div>
+
+      <div class="mb-3">
+        <button class="btn btn-info">Submit</button>
+      </div>
+
+      <br>
+
+    </div>
+
+  </form>
+
+
+  <!-- bootstrap4 cdn for js, jQuery, popper -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <!-- bootstrap3 cdn for js,jQuery, popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
