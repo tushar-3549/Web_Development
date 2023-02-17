@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header starts */
+header {
+    height: 600px;
+    background-color: rgb(247, 232, 234);
+    background-image: url(developer.png), url(header_bg.png);
+    background-position: left, right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.nav-bar {
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-primary {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-bar ul {
+    display: flex;
+    gap: 32px;
+    font-size: 20px;
+}
+
+.nav-bar span {
+    color: red;
+}
+
+.nav-bar li {
+    list-style: none;
+}
+
+.button-primary {
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.banner {
+    display: flex;
+    padding: 0px 120px;
+}
+
+.banner-text {
+    flex-grow: 0.6;
+    margin-top: 50px;
+}
+
+.banner-img {
+    flex-grow: 0.4;
+}
+
+.banner-text .name {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.banner-text span {
+    color: red;
+}
+
+.banner-img img {
+    overflow: hidden;
+    width: fit-content;
+    height: 476px;
+}
+
+.button-download {
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: orangered;
+}
+
+.button-contact {
+    margin-left: 20px;
+    padding: 15px;
+    font-size: 15px;
+    color: orangered;
+    border: 1px solid orangered;
+    border-radius: 5px;
+}
+
+/* header ends */
+
+/* about me starts */
+main {
+    min-height: 80vh;
+    min-height: 80dvh;
+    display: grid;
+    place-items: center;
+}
+
+.box {
+    background: rgb(247, 232, 234);
+    width: min(1000px, 100%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+}
+
+.title {
+    font-size: clamp(1rem, 0.619rem + 1.5238vw, 2rem);
+    font-family: Arial Black;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    font-family: arial;
+    flex-flow: row wrap;
+}
+
+.box-content {
+    font-weight: bold;
+}
+
+/* about me ends */
+
+/* what i do starts */
+.what {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.what h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.what p {
+    text-align: center;
+}
+
+/* what i do ends */
+
+/* card design starts */
+.cd {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+    width: 40%;
+    margin: 10px;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+/* card design ends */
+
+/* resume design starts */
+.tx {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.resume {
+    width: 80%;
+    display: flex;
+    margin-top: 60px;
+    gap: 35px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.education {
+    flex-grow: 0.5;
+}
+
+.experience {
+    flex-grow: 0.5;
+}
+
+.cv {
+    text-align: center;
+    margin: 50px;
+}
+
+/* resume design ends */
+
+
+/* footer design starts */
+footer {
+    height: 90vh;
+    display: flex;
+    background-color: rgb(247, 232, 234);
+}
+
+.left {
+    flex-grow: 0.5;
+    width: 10%;
+    gap: 12px;
+    gap: 12px;
+    margin: 158px 27px 75px 75px;
+}
+
+#fb:hover {
+    color: #1877F2;
+}
+
+#tw:hover {
+    color: #1DA1F2;
+}
+
+#ins:hover {
+    color: #E4405F;
+}
+
+.icn {
+    display: flex;
+}
+
+.icn i {
+    padding: 10px;
+    color: orangered;
+    font-size: 28px;
+}
+
+.right {
+    flex: 0.5;
+    margin: 180px 0px 0px 0px;
+}
+
+.input_style {
+    width: 70%;
+    margin: 10px 0px;
+}
+
+#name {
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+#message {
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+#submit {
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: orangered;
+}
+
+/* footer design ends */
