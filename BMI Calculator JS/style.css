@@ -1,0 +1,42 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: skyblue;
+}
+span{
+    font-size: 12px;
+    color: red;
+    margin-bottom: 10px;
+}
+input{
+    margin-top: 12px;
+}
+.container {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    padding: 25px;
+    font-size: 20px;
+}
+
+/* label[for="height"] {
+    font-size: 15px;
+    margin-bottom: 14px;
+    border: none;
+} */
+#btn {
+    margin-top: 12px;
+    border: none;
+    outline: none;
+    color: white;
+    background: red;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
