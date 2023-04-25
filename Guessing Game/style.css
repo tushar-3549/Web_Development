@@ -1,0 +1,68 @@
+*::before,
+*::after {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  width: 450px;
+  height: 350px;
+  background-color: black;
+  border-radius: 8px;
+  padding: 1rem;
+  color: white;
+  box-shadow: 0.1rem 0.1rem 0.1rem #222, -0.1rem 0 0.1rem #222;
+  font-size: 1.3rem;
+  transition: all 0.4s;
+}
+.card-title {
+  text-align: center;
+  color: white;
+  margin-bottom: 1rem;
+}
+.form-area {
+  margin-bottom: 1rem;
+}
+
+input {
+  border: none;
+  border: 0.1rem solid;
+  border-radius: 0.6rem;
+  padding: 0.2rem;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-size: 1.2rem;
+  width: 42%;
+}
+.btn{
+  display: flex;
+  justify-content: flex-end;
+}
+.btn-modify{
+  margin-top: 10px;
+  border-radius: 6px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-modify:hover{
+  background-color: chocolate;
+}
+p{
+  text-align: center;
+}
+.winlostmsg{
+  color: red;
+  font-weight: bold;
+}
+
