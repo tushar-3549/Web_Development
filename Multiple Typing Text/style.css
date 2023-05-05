@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    overflow: hidden;
+}
+.container{
+    width: 556px;
+    overflow: hidden;
+}
+.container .text{
+    position: relative;
+    color: orangered;
+    font-size: 40px;
+    font-weight: 500;
+}
+.container .text.first-text{
+    color: white
+}
+.text.second-text:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-left: 2px solid white;
+    animation: animate 4s steps(12) infinite;
+    /* animation-direction: reverse; */
+}
+@keyframes animate{
+    40%, 60%{
+        /* left: 100%; */
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
+}
